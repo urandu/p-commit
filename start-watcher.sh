@@ -1,4 +1,3 @@
 #!/bin/bash
 
-watchman watch .
-watchman -- trigger . auto-commit '*' -- ./auto-commit.sh
+watchman watch . && watchman -- trigger . auto-commit '*' -- ./auto-commit.sh
