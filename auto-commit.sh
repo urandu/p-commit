@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git commit -am "piladi changed file $* - auto-pilot mode"
+git commit -am "$USER changed file $* - auto-pilot mode"
